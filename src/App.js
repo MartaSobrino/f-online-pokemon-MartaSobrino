@@ -2,6 +2,7 @@ import React from 'react';
 import {data} from './service/data';
 import Filter from './components/Filter';
 import List from './components/List';
+import Loader from './components/Loader';
 import './App.scss';
 
 
@@ -48,13 +49,21 @@ class App extends React.Component {
     const {dataList, filterName} = this.state;
     return (
       <React.Fragment>
-        <Filter 
-          filter={this.handleFilter}
-        />
-        <List 
-          dataList={dataList}
-          filterName={filterName}
-        />
+        {dataList.length === 0 ? 
+         <React.Fragment>
+          <Loader/>
+         </React.Fragment>
+          :
+          <React.Fragment>
+            <Filter 
+            filter={this.handleFilter}
+            />
+            <List 
+              dataList={dataList}
+              filterName={filterName}
+            />
+          </React.Fragment>  
+          }      
       </React.Fragment>
       );
   }
