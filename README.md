@@ -1,10 +1,6 @@
-# Título del Proyecto
+# Pokedex
 
 _Aquí va una Pokedex para los fans más fans de pokemon_
-
-## Comenzando 🚀
-
-_Puedes desacargarlo y hacer mejoras y modificaciones_
 
 ## Construido con 🛠️
 
