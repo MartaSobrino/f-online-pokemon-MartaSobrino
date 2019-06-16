@@ -1,0 +1,16 @@
+.info__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.list__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+  justify-content: center;
+}
+.item__list {
+  margin: 2%;
+  min-width: 200px;
+  box-shadow: 0px 0px 5px rgb(146, 146, 146);
+}

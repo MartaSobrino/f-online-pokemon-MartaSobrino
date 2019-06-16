@@ -1,0 +1,30 @@
+.top_info {
+  background: #dfdfdf;
+  text-align: center;
+}
+.poke__id {
+  width: 50px;
+  background: rgba(0,0,0,.3);
+  padding: 5px;
+  font-size: 12px;
+  margin: 0;
+}
+.bottom__info {
+  background: white;
+  padding: 10px;
+  .poke__name {
+    text-transform: capitalize;
+  }
+  .types__container {
+    font-size: 13px;
+    display: flex;
+    padding: 5px 0;
+  }
+  .single__type {
+    margin-right: 10px;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-variant: small-caps;
+  }
+}

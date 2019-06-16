@@ -2,7 +2,7 @@ import React from 'react';
 import {data} from './service/data';
 import Filter from './components/Filter';
 import List from './components/List';
-import './App.css';
+import './App.scss';
 
 
 class App extends React.Component {
